@@ -1,25 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moneta</title>
-    <link rel="stylesheet" href="home.css">
+    <link
+      rel="icon"
+      href="image/icon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="home.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="conatiner">
-        <div class="sub_conatiner">
+      <div class="sub_conatiner hidden">
         <div class="header">
-            <h3>Moneta</h3>
-            <p>A simple currency converter</p>
+          <img src="image/icon.png" alt="logo" />
+          <h3>Moneta</h3>
+          <p>A simple currency converter</p>
         </div>
         <div class="converter">
-            <div class="from exchange" id="from"></div> 
-            <div class="to exchange" id="from"></div> 
-            <div class="result exchange" id="from"></div> 
+          <div class="lebels">
+            <label for="from">From</label>
+            <label for="to">To</label>
+          </div>
+          <div class="currency">
+            <div class="from" id="from">
+              <select name="" id=""></select>
+            </div>
+            <div class="to" id="from">
+              <select name="" id=""></select>
+            </div>
+          </div>
+          <div class="amount">
+            <input type="text" id="amount" placeholder="Enter amount" />
+          </div>
+          <div class="button">
+            <button id="convert">Convert</button>
+          </div>
+          <div class="result" id="from">
+    Result: <span id="result"></span>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

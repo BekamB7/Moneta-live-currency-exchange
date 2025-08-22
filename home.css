@@ -5,6 +5,20 @@
 body {
   background-color: rgb(40, 37, 78);
 }
+
+/* //common calss edit below */
+
+.amount,
+.currency,
+.lebels,
+.converter,
+.button,
+.result {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .conatiner {
   width: 100%;
   height: 100vh;
@@ -21,11 +35,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 .header {
   width: 300px;
-  height: 100px;
+  height: 250px;
   /* background-color: rgb(40, 37, 78); */
   background-color: rgb(61, 58, 92);
   color: thistle;
@@ -36,29 +50,103 @@ body {
 }
 .header h3 {
   font-size: 40px;
-  margin-top: 10px;
 }
 .header p {
   font-size: 18px;
   color: rgb(148, 145, 145);
 }
+.header img {
+  width: 100px;
+  height: 100px;
+}
 .converter {
   width: 400px;
-  height: 300px;
+  height: 500px;
   background-color: rgb(40, 37, 78);
   margin-top: 20px;
   border-radius: 10px;
-  display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin-bottom: 30px;
 }
-/* //common calss edit below */
-.exchange {
+.lebels {
   width: 90%;
-  height: 70px;
+  height: 30px;
   /* background-color: rgb(61, 58, 92); */
-  background-color: red;
+}
+.lebels label {
+  font-size: 20px;
+  font-weight: bolder;
+  color: thistle;
+  width: 150px;
+}
+.currency {
+  width: 90%;
+  height: 90px;
+  background-color: rgb(61, 58, 92);
   border-radius: 10px;
   margin: 10px;
+}
+.amount {
+  width: 90%;
+  height: 70px;
+  background-color: rgb(40, 37, 78);
+  border-radius: 10px;
+  margin: 10px;
+}
+select {
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  border: none;
+  background-color: rgb(177, 177, 190);
+  color: #0b0a0c;
+  border-radius: 4px;
+}
+input[type="text"] {
+  width: 300px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bolder;
+  border: none;
+  background-color: rgb(177, 177, 190);
+  color: #0b0a0c;
+  border-radius: 4px;
+}
+.button {
+  width: 90%;
+  height: 30px;
+  /* background-color: rgb(61, 58, 92); */
+}
+button {
+  width: 100px;
+  height: 100%;
+  font-size: 15px;
+  font-weight: bolder;
+  border: none;
+  background-color: rgb(3, 143, 96);
+  color: #03115e;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.result {
+  width: 90%;
+  height: 50px;
+  background-color: rgb(61, 58, 92);
+  border-radius: 10px;
+  margin: 10px;
+  color: thistle;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translatex(5%); /* Move to the right */
+  transition: all 1s;
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translatex(0);
 }
