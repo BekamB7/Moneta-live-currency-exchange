@@ -122,6 +122,14 @@ input[type="text"] {
   color: rgb(26, 20, 20);
   text-transform: capitalize;
 }
+input[type="text"]:focus {
+  outline: none;
+  border: 2px solid rgb(3, 143, 96);
+}
+input[type="text"]:hover {
+ transform: scale(1.01);
+  transition: all 0.5s ease-in-out;
+}
 .button {
   width: 90%;
   height: 30px;
@@ -141,6 +149,8 @@ button {
 button:hover {
   background-color: rgb(14, 122, 86);
   border: none;
+   transform: scale(1.02);
+  transition: all 0.5s ease-in-out;
 }
 button:active {
   transform: scale(0.8);
@@ -203,5 +213,5 @@ input[type="text"] {
 }
 }
 @media(max-width:230px){
-  
+
 }
