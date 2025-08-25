@@ -202,8 +202,8 @@ option{
   font-size: 12px;
 }
 input[type="text"] {
-  width: 250px;
-  height: 25px;
+  width: 270px;
+  height: 30px;
   font-size: 12px;
   border: 2px;
   border-color: rgb(19, 22, 212);
