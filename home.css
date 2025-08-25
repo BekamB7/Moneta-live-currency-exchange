@@ -129,6 +129,15 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+button:hover {
+  background-color: rgb(14, 122, 86);
+  border: none;
+}
+button:active {
+  transform: scale(0.85);
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
 .result {
   width: 90%;
   height: 50px;
@@ -142,7 +151,7 @@ button {
 .hidden {
   opacity: 0;
   filter: blur(5px);
-  transform: translatex(5%); /* Move to the right */
+  transform: translatex(5%);
   transition: all 1s;
 }
 .show {
