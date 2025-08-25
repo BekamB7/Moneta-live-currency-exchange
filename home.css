@@ -171,3 +171,37 @@ button:active {
 
 /* //to make it responsive  */
 
+@media(max-width:400px){
+.sub_conatiner {
+  width: 300px;
+}
+.converter {
+  width: 300px;
+}
+.lebels label {
+  font-size: 15px;
+}
+.currency {
+  height: 50px;
+}
+select {
+  width: 100px;
+  height: 20px;
+}
+option{
+  font-size: 12px;
+}
+input[type="text"] {
+  width: 250px;
+  height: 25px;
+  font-size: 12px;
+  border: 2px;
+  border-color: rgb(19, 22, 212);
+}
+.result{
+  font-size: 15px;
+}
+}
+@media(max-width:230px){
+  
+}

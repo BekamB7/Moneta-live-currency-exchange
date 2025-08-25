@@ -75,3 +75,13 @@ amount.addEventListener("keypress", function(event) {
     convert();              
   }
 });
+
+// alert for the user screen size 
+let screenWidth = window.innerWidth;
+ if (window.innerWidth < 320){
+ alert(" ⚠️ Your screen width is below: " + 320 + "px \n\n"+
+"which is the lowest web application accessible screen size.\n\n"+
+  "we kindly ask 😊For better experience use a device with more than " + 360 + "px width.🙌"
+);
+ }
+
