@@ -66,6 +66,7 @@ function checkInput() {
     return;
   }
   convert();
+  regulation.innerText="";
 }
 
 //ffor in press key of the ENTER key in keyboard to go on 
