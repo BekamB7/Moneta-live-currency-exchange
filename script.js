@@ -72,7 +72,7 @@ function checkInput() {
 amount.addEventListener("keypress", function(event) {
   if (event.key === "Enter") {
     event.preventDefault(); 
-    convert();              
+    checkInput();            
   }
 });
 
